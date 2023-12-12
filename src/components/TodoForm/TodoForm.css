@@ -1,0 +1,39 @@
+.algo-todo {
+  min-width: 100%;
+  min-height: 5vh;
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.algo-todo-checkbox {
+  flex: 0.5;
+  min-height: 25px;
+  cursor: pointer;
+}
+
+.algo-todo-content {
+  flex: 5;
+  display: flex;
+  min-height: inherit;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.algo-todo-title {
+  font-size: 1.5rem;
+  font-weight: bold; 
+}
+
+.algo-todo-tags {
+  min-width: inherit;
+  display: flex;
+  justify-content: start;
+}
+.algo-todo-tag {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.algo-todo-delete-btn {
+  flex: 0.25;
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.main-container {
+  min-height: 1200px;
+  background-color: aliceblue;
+  margin: 0 auto;
+
+  display: grid;
+  justify-content: center;
+  grid-template-rows: repeat(3, 200px);
+  grid-template-columns: repeat(3, 300px);
+  row-gap: 10%;
+  column-gap: 10%;
+  padding: 1rem;
+}
+.main-title {
+  font-size: 2rem;
+}

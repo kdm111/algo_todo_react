@@ -1,0 +1,11 @@
+* {
+  font-family: 'Noto Sans KR', sans-serif;;
+}
+
+.show-block {
+  display: block;
+}
+
+.show-inline {
+  display: inline;
+}
